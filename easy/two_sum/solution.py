@@ -8,7 +8,6 @@ class Solution:
                 return [nums_already[missing_value], i]
 
             nums_already[value] = i
-        print(nums_already)
 
 s = Solution()
 
